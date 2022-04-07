@@ -1,0 +1,21 @@
+/* .day {
+  display: "flex",
+  flex: "1",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "50px",
+  height: "50px",
+  transition: "all 0.2s",
+  borderLeft: "solid 1px #cccccc",
+
+  /* "&:hover": {
+    background: "#efefef"
+  },
+  "&:last-child": {
+    borderRight: "solid 1px #cccccc"
+  } */
+/* } */
+
+.component-item:hover {
+  background: #efefef;
+}

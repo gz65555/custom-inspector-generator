@@ -1,0 +1,19 @@
+.inspector-collapse-group .ant-collapse-header {
+  padding-left: 0 !important;
+  margin-left: -2px !important;
+}
+
+.inspector-collapse-group .ant-collapse-content .ant-collapse-content-box {
+  padding-right: 0 !important;
+  padding-top: 5px !important;
+  padding-bottom: 0px !important;
+  padding-left: 20px !important;
+}
+
+.input-wrap .ant-input-number-handler-wrap {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}

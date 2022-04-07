@@ -1,0 +1,32 @@
+{
+	"name": "react-oasis",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "tsc && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@ant-design/icons": "^4.7.0",
+		"@emotion/react": "^11.8.2",
+		"@emotion/styled": "^11.8.1",
+		"@fontsource/roboto": "^4.5.5",
+		"@mui/icons-material": "^5.5.1",
+		"@mui/lab": "^5.0.0-alpha.75",
+		"@mui/material": "^5.5.2",
+		"antd": "^4.19.3",
+		"mobx": "^6.5.0",
+		"mobx-react-lite": "^3.3.0",
+		"oasis-engine": "^0.6",
+		"panel-manager": "^0.0.13",
+		"react": "^17.0.0",
+		"react-dom": "^17.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@vitejs/plugin-react-refresh": "^1.1.0",
+		"typescript": "^4.1.2",
+		"vite": "^2"
+	}
+}
