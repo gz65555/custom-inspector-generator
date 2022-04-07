@@ -4,6 +4,7 @@ import React from "react";
 // import { Inspector } from "./UI/MUIInspector";
 import { Inspector } from "./UI/AntdInspector";
 import { NodeTree } from "./UI/NodeTree";
+import { InspectorForm } from "./UI/InspectorForm";
 
 const config: IPanelConfig = {
   LTL: {
@@ -39,7 +40,8 @@ const config: IPanelConfig = {
     },
   },
   R: {
-    component: <Inspector />,
+    // component: <Inspector />,
+    component: <InspectorForm />,
     resizable: true,
     resizeConfig: {
       defaultSize: {

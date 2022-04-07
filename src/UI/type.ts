@@ -1,4 +1,4 @@
-export enum FormType {
+export enum FormItemType {
   Text,
   Number,
   Vector4,
@@ -11,11 +11,21 @@ export enum FormType {
 }
 
 interface BaseConfig {
-  type: FormType,
-  label: string,
+  type: FormItemType;
+  label: string;
+  when?: () => boolean;
 }
 
-interface TextConfig extends BaseConfig {
-  type: FormType.Text,
-  defaultValue: string,
+export interface TextConfig extends BaseConfig {
+  type: FormItemType.Text;
+  defaultValue?: string;
+  maxLength?: string;
 }
+
+export interface NumberConfig extends BaseConfig {
+  type: FormItemType.Number;
+  min?: number;
+  max?: number;
+}
+
+export type FormItemConfig = TextConfig | NumberConfig;

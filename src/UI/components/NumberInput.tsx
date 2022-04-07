@@ -1,5 +1,7 @@
 import { Form, InputNumber } from "antd";
 import React from "react";
+import { FormItemType } from "../type";
+import { Inspector } from "../Inspector";
 
 export const NumberInput = () => {
   return (
@@ -10,3 +12,5 @@ export const NumberInput = () => {
     </Form.Item>
   );
 };
+
+Inspector.registerFormItem(FormItemType.Number, NumberInput);

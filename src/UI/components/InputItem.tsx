@@ -7,7 +7,7 @@ export const InputItem = (props: { label: string }) => {
     <InputNumber
       ref={ref}
       onFocus={() => {
-        ref.current.select();
+        ref.current!.select();
       }}
       style={{ flex: 1, margin: "0 2px" }}
       prefix={
